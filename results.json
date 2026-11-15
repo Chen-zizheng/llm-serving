@@ -1,0 +1,42 @@
+{
+ "model": "Qwen/Qwen2.5-1.5B-Instruct",
+ "max_tokens": 128,
+ "levels": [
+  {
+   "concurrency": 1,
+   "requests": 24,
+   "wall_s": 46.74,
+   "ttft_p50_ms": 33.4,
+   "ttft_p95_ms": 43.3,
+   "e2e_p50_ms": 1930.8,
+   "e2e_p95_ms": 2074.2,
+   "output_tokens": 3036,
+   "tokens_per_s": 65.0,
+   "req_per_s": 0.51
+  },
+  {
+   "concurrency": 4,
+   "requests": 24,
+   "wall_s": 13.39,
+   "ttft_p50_ms": 50.6,
+   "ttft_p95_ms": 59.4,
+   "e2e_p50_ms": 2215.9,
+   "e2e_p95_ms": 2371.5,
+   "output_tokens": 3032,
+   "tokens_per_s": 226.5,
+   "req_per_s": 1.79
+  },
+  {
+   "concurrency": 8,
+   "requests": 24,
+   "wall_s": 6.72,
+   "ttft_p50_ms": 60.2,
+   "ttft_p95_ms": 64.5,
+   "e2e_p50_ms": 2233.5,
+   "e2e_p95_ms": 2381.7,
+   "output_tokens": 3028,
+   "tokens_per_s": 450.7,
+   "req_per_s": 3.57
+  }
+ ]
+}
